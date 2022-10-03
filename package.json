@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "name": "challenge-2.1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass src/sass/styles.scss public/css/styles.css",
+    "sass:watch": "sass src/sass/styles.scss public/css/styles.css --watch",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodo08/rodo08-202209-w2ch1-rodrigorosales.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodo08/rodo08-202209-w2ch1-rodrigorosales/issues"
+  },
+  "homepage": "https://github.com/rodo08/rodo08-202209-w2ch1-rodrigorosales#readme",
+  "description": ""
+}
