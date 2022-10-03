@@ -13,34 +13,48 @@
     <title>Order summary component</title>
   </head>
   <body>
-    <section>
-      <div class="header-container">
-        <header class="header-container__highlight">
+    <card class="card-container">
+      <aside class="card__figure">
+        <img
+          src="imgs/illustration-hero.svg"
+          width="282"
+          height="138"
+          alt="Chica bailando"
+        />
+      </aside>
+
+      <header>
+        <h1>Order Summary</h1>
+
+        <p class="card__copy">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </header>
+
+      <div class="card__body">
+        <div class="card_body__figure">
           <img
-            src="imgs/illustration-hero.svg"
-            width="282"
-            height="138"
-            alt="Chica bailando"
+            src="imgs/icon-music.svg"
+            width="30"
+            height="30"
+            alt="Nota musical"
           />
+        </div>
 
-          <h1>Order Summary</h1>
-          <p>
-            You can now listen to millions of songs, audiobooks, and podcasts on
-            any device anywhere you like!
-          </p>
-        </header>
+        <div class="card__body__copy">
+          <span class="card__body__copy-title">Annual Plan</span>
+          <span class="card__body__copy-subtitle">$59.99/year</span>
+        </div>
 
-        <img src="imgs/icon-music.svg" alt="Nota musical" />
-
-        <span>Annual Plan</span>
-        <span>$59.99/year</span>
-
-        <a href="url">Change</a>
-
-        <button>Proceed to Payment</button>
-
-        <button>Cancel Order</button>
+        <a class="card__body--action" href="url">Change</a>
       </div>
-    </section>
+
+      <footer class="card__footer">
+        <button class="button-do">Proceed to Payment</button>
+
+        <button class="button-undo">Cancel Order</button>
+      </footer>
+    </card>
   </body>
 </html>

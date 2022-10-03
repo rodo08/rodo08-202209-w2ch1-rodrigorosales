@@ -1,0 +1,26 @@
+@use "../sass/variables" as vars;
+
+.card-container {
+  width: 282px;
+  border: 1px solid black;
+  height: 262px;
+  margin: 0;
+}
+
+.card__body {
+  display: flex;
+  height: 63px;
+  background-color: #b8b9bb;
+  align-items: center;
+  width: 283px;
+}
+
+.button-undo {
+  border: 0;
+  background-color: vars.$light-color;
+}
+
+.card__footer {
+  display: flex;
+  flex-direction: column;
+}
