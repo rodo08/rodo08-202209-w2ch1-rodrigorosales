@@ -1,18 +1,71 @@
 @use "../sass/variables" as vars;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Nunito:wght@500;800&family=Poppins:wght@700&display=swap");
+
+html {
+  font-family: Montserrat, Arial, Helvetica, "Trebuchet MS", Verdana;
+}
+
 .card-container {
-  width: 282px;
-  border: 1px solid black;
-  height: 262px;
+  margin-left: 32px;
+  margin-right: 32px;
+  width: 500px;
+  height: 300px;
   margin: 0;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.card__title {
+  text-align: center;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 38px;
+  margin-bottom: 18px;
+}
+
+.card__copy {
+  color: vars.$link-text-color;
 }
 
 .card__body {
   display: flex;
   height: 63px;
-  background-color: #b8b9bb;
+  background-color: vars.$text-background-color;
+  justify-content: center;
   align-items: center;
-  width: 283px;
+  height: 222px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card_body__figure {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card__body__copy {
+  margin-right: 200px;
+  justify-content: space-between;
+}
+
+.card__body__copy-title {
+  color: vars.$dark-color;
+  font-weight: 800;
+}
+
+.card__body__copy-subtitle {
+  color: vars.$link-text-color;
+}
+
+.card__body--action {
+  margin-right: 20px;
+}
+
+element.style {
+  width: 30px;
 }
 
 .button-undo {
@@ -23,4 +76,5 @@
 .card__footer {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
